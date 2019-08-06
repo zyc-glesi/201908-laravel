@@ -33,7 +33,7 @@ class User extends Authenticatable
      * 据教科书，插入了一个属性table，这是原本没有的。
      * protected $table = 'users';
      *
-     * Eloquent模型默认表格名字。--见鬼我还写错了名字。模型要用单数，不能用users
+     * Eloquent Article 模型默认情况下会使用类的「下划线命名法」与「复数形式名称」来作为数据表的名称生成规则。
      */
 
 
