@@ -27,8 +27,15 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
 
-  /*  根据教科书，插入了一个属性table，这是原本没有的。*/
-    protected $table = 'users';
+  /*  */
+    /**
+     * @var string
+     * 据教科书，插入了一个属性table，这是原本没有的。
+     * protected $table = 'users';
+     *
+     * Eloquent模型默认表格名字。--见鬼我还写错了名字。模型要用单数，不能用users
+     */
+
 
     /**
      *
